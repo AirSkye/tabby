@@ -1,10 +1,7 @@
 name: build-release
 run-name: Build And Release Tabby
 
-on:
-  push:
-    tags:
-      - 'v*'
+on: workflow_dispatch
 
 jobs:
   build_release:
